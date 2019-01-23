@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542649648 source:h:\competitive coding\codeforces\buffer\300 array tutorial\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1542042094 source:h:\competitive coding\codeforces\buffer\742b arpa's problem\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540016174 source:h:\competitive coding\codeforces\buffer\236a boy or girl\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

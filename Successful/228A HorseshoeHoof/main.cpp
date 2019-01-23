@@ -1,0 +1,31 @@
+#include<iostream>
+#include<cstdio>
+#include<cmath>
+#include<cstring>
+using namespace std;
+#define sf scanf
+#define pf printf
+typedef long long ll;
+
+int main()
+{
+    int count, ans;
+    ll s1, s2, s3, s4;
+    cin >> s1 >> s2 >> s3 >> s4;
+    ans=0;
+    count = 1;
+    if(s1!=s2 && s1!=s3 && s1!=s4)
+    {
+        count++;
+    }
+    if(s2!=s3 && s2!=s4)
+    {
+        count++;
+    }
+    if(s3!=s4)
+    {
+        count++;
+    }
+    ans = (4-count);
+    cout << ans << endl;
+}

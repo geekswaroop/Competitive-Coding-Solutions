@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1539022669 source:h:\competitive coding\codeforces\buffer\248a cupboards\main.cpp
+	<stdio.h>
+	<bits/stdc++.h>
+	<cstdio>
+	<algorithm>
+

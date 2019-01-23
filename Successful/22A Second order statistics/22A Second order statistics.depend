@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1540637432 source:h:\competitive coding\codeforces\buffer\22a second order statistics\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

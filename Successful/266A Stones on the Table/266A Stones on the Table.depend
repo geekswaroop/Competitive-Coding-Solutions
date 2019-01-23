@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538648433 source:h:\competitive coding\codeforces\buffer\266a stones on the table\main.cpp
+	<iostream>
+	<stdio.h>
+	<bits/stdc++.h>
+
