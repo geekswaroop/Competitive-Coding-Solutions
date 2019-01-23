@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545699621 source:h:\competitive coding\spoj\classical\buffer\busyman\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

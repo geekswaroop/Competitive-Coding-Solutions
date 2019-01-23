@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545661966 source:h:\competitive coding\spoj\classical\buffer\moronic cowmputer\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
