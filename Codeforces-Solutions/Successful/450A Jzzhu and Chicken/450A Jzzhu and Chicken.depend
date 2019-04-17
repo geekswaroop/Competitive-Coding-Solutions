@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1539692774 source:h:\competitive coding\codeforces\buffer\450a jzzhu and chicken\main.cpp
+	<iostream>
+	<algorithm>
+	<bits/stdc++.h>
+	<stdio.h>
+

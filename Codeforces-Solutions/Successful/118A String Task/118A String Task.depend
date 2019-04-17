@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1540755493 source:h:\competitive coding\codeforces\buffer\118a string task\main.cpp
+	<iostream>
+	<algorithm>
+	<bits/stdc++.h>
+

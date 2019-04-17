@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538558821 source:h:\competitive coding\codeforces\successful\263a beautiful matrix\main.cpp
+	<iostream>
+	<math.h>
+	<bits/stdc++.h>
+
