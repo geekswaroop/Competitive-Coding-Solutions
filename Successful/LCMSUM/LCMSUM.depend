@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1541324327 source:h:\competitive coding\spoj\classical\buffer\lcmsum\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

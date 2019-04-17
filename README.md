@@ -1,3 +1,2 @@
-# Codeforces-Solutions
-Dump of all codeforces problems solved by me and their solutions.
-
+# SPOJ-Solutions
+Soltion Dump of all SPOJ Classical Problems solved by me
