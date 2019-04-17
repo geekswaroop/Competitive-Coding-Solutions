@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1539856802 source:h:\competitive coding\codeforces\buffer\41a translation\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<stdio.h>
+	<string>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545924193 source:h:\competitive coding\codeforces\buffer\array stabilization2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

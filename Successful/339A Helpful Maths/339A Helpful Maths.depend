@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1539438278 source:h:\competitive coding\codeforces\buffer\339a helpful maths\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<algorithm>
+	<stdio.h>
+
