@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1540390634 source:h:\competitive coding\codeforces\buffer\149a business trip\main.cpp
-	<iostream>
-	<stdio.h>
-	<algorithm>
-	<bits/stdc++.h>
-

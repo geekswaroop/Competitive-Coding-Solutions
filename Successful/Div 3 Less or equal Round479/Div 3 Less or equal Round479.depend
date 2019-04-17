@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1539353032 source:h:\competitive coding\codeforces\buffer\div 3 less or equal round479\main.cpp
-	<iostream>
-	<stdio.h>
-	<bits/stdc++.h>
-	<algorithm>
-

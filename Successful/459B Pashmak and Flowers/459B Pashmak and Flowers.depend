@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1540470423 source:h:\competitive coding\codeforces\buffer\459b pashmak and flowers\main.cpp
-	<iostream>
-	<algorithm>
-	<bits/stdc++.h>
-	<vector>
-
