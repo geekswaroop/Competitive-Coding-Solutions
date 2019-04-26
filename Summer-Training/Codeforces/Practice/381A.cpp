@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+/*#include <bits/stdc++.h>
 
 
 using namespace std;
@@ -51,4 +51,53 @@ int main()
   }
   cout<<s<<" "<<d<<endl;
 	return 0;
+}
+*/
+//Better 2 pointer O(n) implementation
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int l,r,cnt=0,n,i,s=0,d=0;
+  cin>>n;
+  int a[n];
+  for(i=0;i<n;i++)
+  {
+    cin>>a[i];
+  }
+  l=0,r=n-1;
+  while(l<(r+1))
+  {
+    if(a[l]>a[r])
+    {
+      if(cnt%2==0)
+      {
+        s+=a[l];
+        cnt++;
+      }
+      else
+      {
+       d+=a[l];
+       cnt++;
+      }
+      l++;
+    }
+    else
+    {
+      if(cnt%2==0)
+      {
+        s+=a[r];
+        cnt++;
+      }
+      else
+      {
+       d+=a[r];
+       cnt++;
+      }
+      r--;
+    }
+  }
+  cout<<s<<" "<<d<<endl;
+
 }
