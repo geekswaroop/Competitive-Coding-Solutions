@@ -1,9 +1,9 @@
-		
+//SOl1: Hashing		
 /**
 *	Name: K Krishna Swaroop (@geekswaroop, </www.geekswaroop.github.io>)
 *	Institute: National Institute of Technology Karnataka Surathkal
-Status: AC
-SC: 
+Status:
+SC:
 RT:
 TT:
 CT:
@@ -33,20 +33,30 @@ typedef vector<st> vs;
 
 int main() {
 	off;
-	char a;
-	int n,m,i,j,ans=0;
-	cin>>n>>m;
-	for(i=0;i<n;i++)
+	int a[3]={0};
+	int t=3,i,j;
+	while(t--)
 	{
-		for(j=0;j<m;j++)
+		string s;
+		cin>>s;
+		if(s[1]=='>')
 		{
-			cin>>a;
-			if(a=='C' || a=='M' || a=='Y') ans = 1;
+			a[s[0]-'A']++;
+		}
+		else
+			a[s[2]-'A']++;
+
+	}
+	if(a[1]==a[0] || a[0]==a[2] || a[2]==a[1])
+		{cout<<"Impossible"; return 0;}
+	for(j=0;j<3;j++)
+	{
+		for(i=0;i<3;i++)
+		{
+			if(a[i]==j)
+				cout<<char(('A'+i));
 		}
 	}
-	if(ans==0)
-		cout<<"#Black&White"<<endl;
-	else
-		cout<<"#Color"<<endl;
+
   	return 0;
 }

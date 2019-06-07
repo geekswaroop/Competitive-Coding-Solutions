@@ -3,12 +3,12 @@
 *	Name: K Krishna Swaroop (@geekswaroop, </www.geekswaroop.github.io>)
 *	Institute: National Institute of Technology Karnataka Surathkal
 Status: AC
-SC: 
-RT:
-TT:
-CT:
-DT:
-TT:
+SC: 1
+RT: 1
+TT: 1.5
+CT: 1
+DT: 2.5
+TT: 6
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,20 +33,29 @@ typedef vector<st> vs;
 
 int main() {
 	off;
-	char a;
-	int n,m,i,j,ans=0;
-	cin>>n>>m;
-	for(i=0;i<n;i++)
-	{
-		for(j=0;j<m;j++)
+	int n,i,j,k;
+	string s,ans;
+	cin>>n;
+	cin>>s;
+	ans=s[0];
+	for(i=1;i<s.size();i++)
+	{	if(n%2)
 		{
-			cin>>a;
-			if(a=='C' || a=='M' || a=='Y') ans = 1;
+			if(i%2==1)
+			ans=(s[i]+ans);
+		else
+			ans=(ans+s[i]);
+		}
+		else
+		{
+
+			if(i%2==0)
+			ans=(s[i]+ans);
+			else
+			ans=(ans+s[i]);
 		}
 	}
-	if(ans==0)
-		cout<<"#Black&White"<<endl;
-	else
-		cout<<"#Color"<<endl;
+	cout<<ans<<endl;
+
   	return 0;
 }

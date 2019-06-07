@@ -2,13 +2,13 @@
 /**
 *	Name: K Krishna Swaroop (@geekswaroop, </www.geekswaroop.github.io>)
 *	Institute: National Institute of Technology Karnataka Surathkal
-Status: AC
-SC: 
-RT:
-TT:
-CT:
-DT:
-TT:
+Status: WA/AC
+SC: 2
+RT: 1
+TT: 4
+CT: 1.5
+DT: 3
+TT: 9.5
 */
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,20 +33,27 @@ typedef vector<st> vs;
 
 int main() {
 	off;
-	char a;
-	int n,m,i,j,ans=0;
-	cin>>n>>m;
-	for(i=0;i<n;i++)
+	int n,i,cost=0,energy=0,sum=0;
+	cin>>n;
+	int a[n+5];
+	for(i=1;i<=n;i++)
 	{
-		for(j=0;j<m;j++)
+		cin>>a[i];
+	}
+	
+	for(i=1;i<n;i++)
+	{
+		//sum+=(a[i]-a[i+1]);
+		energy+=(a[i]-a[i+1]);
+		if(energy<0)
 		{
-			cin>>a;
-			if(a=='C' || a=='M' || a=='Y') ans = 1;
+			cost+=abs(energy);
+			energy=0;
 		}
 	}
-	if(ans==0)
-		cout<<"#Black&White"<<endl;
-	else
-		cout<<"#Color"<<endl;
+	cost+=a[1];
+	cout<<cost<<endl;
+
+
   	return 0;
 }

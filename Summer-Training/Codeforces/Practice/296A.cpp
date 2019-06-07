@@ -2,8 +2,8 @@
 /**
 *	Name: K Krishna Swaroop (@geekswaroop, </www.geekswaroop.github.io>)
 *	Institute: National Institute of Technology Karnataka Surathkal
-Status: AC
-SC: 
+Status:
+SC:
 RT:
 TT:
 CT:
@@ -33,20 +33,26 @@ typedef vector<st> vs;
 
 int main() {
 	off;
-	char a;
-	int n,m,i,j,ans=0;
-	cin>>n>>m;
+	int n,i;
+	set<int>s;
+	int temp;
+	cin>>n;
 	for(i=0;i<n;i++)
 	{
-		for(j=0;j<m;j++)
-		{
-			cin>>a;
-			if(a=='C' || a=='M' || a=='Y') ans = 1;
-		}
+		cin>>temp;
+		s.insert(temp);
+
+
 	}
-	if(ans==0)
-		cout<<"#Black&White"<<endl;
+	if(n==1)
+		cout<<"YES";
 	else
-		cout<<"#Color"<<endl;
+	{
+		if(s.size()>1)
+			cout<<"YES"<<endl;
+		else
+			cout<<"NO"<<endl;
+	}
+
   	return 0;
 }
